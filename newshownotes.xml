@@ -1,0 +1,102 @@
+
+<show>
+        <!--<AA> INFORMATION ABOUT THE WHOLE SHOW -->
+	<title sub="Piggy Back">May 2012</title>
+	<pubDate>Tue, 01 May 2012 12:00:00 +0000</pubDate>
+	<archive url="http://www.jodcast.net/archive/201205/" />
+	<forum id="196" />
+        <copyright>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</copyright>
+	<language>en</language>
+	<keywords>main show keywords</keywords>
+
+	<!--<AA> Preamble. This makes up the top matter of web page -->
+	<!--<AA> Foreach of the segments which need page links the syntax
+	                  is {type;Link text} so e.g. {nightsky; night sky} for
+	                  interviews ALWAYS start with interview1 and
+			  go up from there.
+	                  So if there is just one interview use
+			  {interview1;Interviewee's Name}
+	                  NOTE: DON'T SPLIT THESE CURLY BRAKETS OVER NEWLINES -->
+        <description><![CDATA[
+	In this months show we bring you the first of many
+	interviews. We talk to {interview1;Dr Dinah Sore} about Hot
+	Jupiter planets, {interview2;Dr Some Guy} about a billion star
+	images. Plus, Megan rounds up the latest {news;news} and we
+	find out what's in the May {nightsky;night sky} sky from Ian Morison and John Field, and bring you some
+	astronomical {oddsends;odds and ends}. ]]>
+	 </description>
+        
+
+	
+	<!-- SHOW COVER ART -->
+	<cover src="Cover.jpg" desc="Discovery piggybacks on a Boeing 747" credit="NASA Goddard Space Flight Center" url="http://www.flickr.com/photos/nasa_goddard/6947288612/sizes/m/in/photostream/" />
+<media src="20120501-jodcast.mp3" />
+
+        <!-- SHOW SEGMENTS -->
+        
+	<!-- news -->
+	<segment type="news">
+		<starttime>0:48.8</starttime>
+		<endtime>6:50.6</endtime>
+		<title>The news - May 2012</title>
+		<language>en</language>
+		<description short="In the news this month:"><![CDATA[The News Goes here]]>
+		</description>
+		<keywords>cosmic rays, star formation, evolution, dark matter</keywords>
+		<author item="News" name="Megan Argo" />
+		<media src="20120501-jodcast-news.mp3" />
+	</segment>
+	
+	<!-- interviews. There can be more that one -->
+	<segment type="interview">
+		<starttime>7:08.9</starttime>
+		<endtime>20:18.4</endtime>
+		<title>Interview with Dinah Sore </title>
+		<description><![CDATA[INterview with Dinah Sore]]>
+		</description>
+		<keywords>exoplanets,stars,planets,UKIRT,planet formation</keywords>
+		<author item="Interview" name="Dr Jayne Birkby and Stuart Harper" />
+		<media src="20120501-jodcast-interview1.mp3" />
+	</segment>
+	
+	<segment type="interview">
+		<starttime>27:27.3</starttime>
+		<endtime>33:48.8</endtime>
+		<title>Interview with Some Guy</title>
+		<description><![CDATA[<p>we interviewed some guy about
+		some stuff</p>]]>
+		</description>
+		<keywords>supernova,supernovae,dark energy, modified gravity,cosmology </keywords>
+		<author item="Interview" name="Phil Bull and Christina Smith" />
+		<media src="20120501-jodcast-interview3.mp3" />
+	</segment>
+
+	<!-- Night Sky. Both north and south -->
+	<segment type="nightsky">
+		<starttime>48:54.6</starttime>
+		<endtime>50:45.8</endtime>
+		<title>The night sky for May 2012</title>
+		<description><![CDATA[FOR THE NORTH!!!<p/> errgh the South]]>
+		</description>
+		<keywords>planets,mars,mercury,uranus,jupiter,venus,moon,taurus,matariki,pleiades,hyades,beehive cluster,argo,equinox</keywords>
+		<author item="Night sky" name="Ian Morison and John Field" />
+		<media src="20120501-jodcast-nightsky.mp3" />
+	</segment>
+
+	<!-- Odds and ends -->
+	<segment type="oddsends">
+		<starttime>50:54.6</starttime>
+		<endtime>51:45.8</endtime>
+		<title>Odds and ends</title>
+		<description><![CDATA[Odd and or end]]>
+		</description>
+	</segment>
+
+	<!-- Show authors. E.g. Presenters, Editors etc -->
+	<author item="Presenters" name="Adam Avison, Libby Jones and Leo Huckvale" />
+	<author item="Editors" name="Mark Purver, Megan Argo, Claire Bretherton, George Bendo, Christina Smith" />
+        <author item="Segment voice" name="Cormac Purcell" />
+	<author item="Website" name="Adam Avison and Stuart Lowe" />
+	<author item="Producer" name="Adam Avison" />
+
+</show>
